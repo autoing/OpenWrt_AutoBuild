@@ -38,7 +38,7 @@ sed -i "s/DISTRIB_REVISION='*.*'/DISTRIB_REVISION=' YaoDao'/g" package/lean/defa
 cp -af feeds/xiangfeidexiaohuo/patch/banner  package/base-files/files/etc/
 
 ##更改主机名
-sed -i "s/hostname='.*'/hostname='AE86Wrt'/g" package/base-files/files/bin/config_generate
+sed -i "s/hostname='.*'/hostname='AEX'/g" package/base-files/files/bin/config_generate
 
 ##切换为samba4
 sed -i 's/luci-app-samba/luci-app-samba4/g' package/lean/autosamba/Makefile
